@@ -120,7 +120,9 @@ export default UtilityFirst;
 
 ## Class - 04 : Dark Mode.
 
-- Create a button after on click it will change the color mode.
+- Create a button such that after click the color mode will change.
+
+_NOTE_ : add `darkMode: "class", // media or class` to `tailwind.cofig.js` file. Learn about the modes(media and class). For using class mode, you have to add `class` to `html` tag inside `index.html` file.
 
 ```jsx
 import React, { useEffect, useState } from "react";
