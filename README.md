@@ -4,7 +4,7 @@
 
 ### Class - 01:
 
-```javascript
+```jsx
 import React from "react";
 
 function UtilityFirst() {
@@ -34,7 +34,7 @@ export default UtilityFirst;
 // 1 rem = 16 px
 ```
 
-#### Details explanation of thecss property :
+#### Details explanation of the css property :
 
 1. body className="h-screen flex items-center justify-center bg-gray-100"
 
