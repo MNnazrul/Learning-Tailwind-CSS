@@ -8,7 +8,7 @@ function UtilityFirst() {
     <body className="h-screen flex items-center justify-center bg-gray-100">
       <div className="p-8 bg-white rounded-xl shadow-md space-y-2 sm:flex sm:items-center sm:py-4 sm:space-y-0 sm:space-x-6">
         <img
-          className="h-24 rounded-full ring-4 ring-green-300 sm:mx-0 sm:flex-shrink-0"
+          className="h-24 rounded-full ring-4 ring-green-300 sm:mx-0 sm:flex-shrink-0 hover:scale-105 duration-500 hover:ring-green-600"
           src={link}
           alt="MNnazrul image"
         />
@@ -17,7 +17,7 @@ function UtilityFirst() {
             <p className="text-lg text-black font-semibold">Nazrul Islam</p>
             <p className="text-gray-500 font-medium">Linked In</p>
           </div>
-          <button className="px-4 py-1 rounded-full text-sm border border-purple-300 font-semibold">
+          <button className="px-4 py-1 rounded-full text-sm border border-purple-300 font-semibold hover:text-white hover:border-transparent hover:bg-red-300 focus:ring-2 focus:ring-red-400 focus:ring-offset-2">
             Visit now
           </button>
         </div>

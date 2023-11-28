@@ -101,5 +101,22 @@ export default UtilityFirst;
       - space-y-0: Eliminates vertical spacing between direct child elements.
       - space-x-6: Sets horizontal spacing between direct child elements.
 
+## Class - 03 : Hover and focus effect in tailwind.
+
+- Hover Styles: This prefix is used to apply styles when the mouse cursor is positioned over an element. It's a way to define how an element should appear or behave when it is being hovered.
+
+  - hover:scale-105: When the element is hovered over, it will be scaled to 105% of its original size. This adds a scaling effect on hover.
+  - duration-500: The scaling transition will take 500 milliseconds (0.5 seconds) to complete. This controls the speed of the scaling animation.
+  - hover:ring-green-600: Adds a green ring around the element when it is hovered over. The 600 in green-600 represents the shade or intensity of the green color.
+  - hover:text-white: Changes the text color to white when the element is hovered over.
+  - hover:border-transparent: Makes the border of the element transparent on hover.
+  - hover:bg-red-300: Changes the background color to a shade of red with an intensity of 300 when the element is hovered over.
+
+- Focus Styles: This prefix is used to apply styles when an element gains focus. Elements typically gain focus when they are selected, often using the keyboard (e.g., pressing the Tab key to navigate through interactive elements).
+
+  - focus:ring-2: Adds a 2px ring around the element when it is in focus. The ring appears when the element is selected, often with the keyboard.
+  - focus:ring-red-400: Specifies the color of the focus ring to be a shade of red with an intensity of 400.
+  - focus:ring-offset-2: Adds an offset to the focus ring, making it slightly larger than the element itself. The 2 specifies the size of the offset.
+
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
