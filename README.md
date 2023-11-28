@@ -95,11 +95,11 @@ export default UtilityFirst;
     - shadow-md: Adds a medium-sized shadow for a lifted appearance.
     - space-y-2: Sets vertical spacing between direct child elements.
     - sm:flex sm:items-center sm:py-4 sm:space-y-0 sm:space-x-6: Applies the following styles only on small screens:
-    - flex: Enables a flex container.
-    - items-center: Centers the items along the vertical axis.
-    - py-4: Adds padding of size 4 along the vertical axis.
-    - space-y-0: Eliminates vertical spacing between direct child elements.
-    - space-x-6: Sets horizontal spacing between direct child elements.
+      - flex: Enables a flex container.
+      - items-center: Centers the items along the vertical axis.
+      - py-4: Adds padding of size 4 along the vertical axis.
+      - space-y-0: Eliminates vertical spacing between direct child elements.
+      - space-x-6: Sets horizontal spacing between direct child elements.
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
